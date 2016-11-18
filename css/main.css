@@ -1,0 +1,60 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.masthead {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  display: block;
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.nav-top {
+  padding: 1em;
+  margin: 0;
+}
+
+.nav-top ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  text-align: center;
+}
+
+.nav-top li {
+  color: lightblue;
+  padding: 0 0.5em;
+  display: inline-block;
+}
+
+.nav-top a,
+.nav-top:link,
+.nav-top:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.bikeimage {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+
+}
