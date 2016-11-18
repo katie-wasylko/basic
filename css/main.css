@@ -1,3 +1,21 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-wedkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font: normal 100%/1.3 Verdana, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 html {
   font-family: sans-serif;
 }
@@ -51,10 +69,37 @@ body {
   color: black;
 }
 
-.bikeimage {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  position: absolute;
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  background-image: url(../images/bikebw.jpg);
+  padding-top: 95%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 1em;
+}
 
+.nav-bottom {
+  padding-top: 1.5em;
+  margin: 0;
+}
+
+.nav-bottom ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  text-align: center;
+}
+
+.nav-bottom li {
+  color: lightblue;
+  padding: 0 0.5em;
+  display: inline-block;
+}
+
+.nav-bottom a,
+.nav-bottom:link,
+.nav-bottom:visited {
+  text-decoration: none;
+  color: black;
 }
