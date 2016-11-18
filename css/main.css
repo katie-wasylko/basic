@@ -73,15 +73,24 @@ body {
   position: relative;
   width: 100%;
   background-image: url(../images/bikebw.jpg);
-  padding-top: 95%;
+  padding-top: 105%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 1em;
+}
+
+.image-wrapper-one {
+  position: relative;
+  width: 100%;
+  background-image: url(../images/fox.jpg);
+  padding-top: 100%;
   background-size: cover;
   background-position: center;
   padding-bottom: 1em;
 }
 
 .nav-bottom {
-  padding-top: 1.5em;
-  margin: 0;
+   padding-top: .5em;
 }
 
 .nav-bottom ul {
@@ -102,4 +111,21 @@ body {
 .nav-bottom:visited {
   text-decoration: none;
   color: black;
+}
+
+.selfie {
+  width: 100%;
+  padding: 1em;
+}
+
+.aboutme {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0;
+}
+
+.aboutmetwo {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0;
 }
