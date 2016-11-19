@@ -175,6 +175,11 @@ h3 {
   padding-right: 2em;
 }
 
+.boxes {
+  width: 100%;
+  display: inline-block;
+}
+
 @media only screen and (min-width: 48em) {
 
   .masthead {
