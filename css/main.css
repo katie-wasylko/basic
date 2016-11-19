@@ -27,7 +27,7 @@ body {
 }
 
 .masthead {
-  padding: 0;
+  padding: 1em;
   margin: 0;
 }
 
@@ -72,8 +72,8 @@ body {
 .image-wrapper {
   position: relative;
   width: 100%;
-  background-image: url(../images/bikebw.jpg);
-  padding-top: 105%;
+  background-image: url(../images/bus.jpg);
+  padding-top: 95%;
   background-size: cover;
   background-position: center;
   padding-bottom: 1em;
@@ -86,11 +86,25 @@ body {
   padding-top: 100%;
   background-size: cover;
   background-position: center;
-  padding-bottom: 1em;
+  text-align: center;
+}
+
+.abouts {
+  font-size: 4em;
+  color: yellow;
+  color: rgba(255, 255, 0, 0.85);
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  top: 2.5em;
+
 }
 
 .nav-bottom {
-   padding-top: .5em;
+   background-color: yellow;
+   padding: 1em
 }
 
 .nav-bottom ul {
@@ -111,6 +125,10 @@ body {
 .nav-bottom:visited {
   text-decoration: none;
   color: black;
+}
+
+.aboutpage {
+  display: inline-block;
 }
 
 .selfie {
